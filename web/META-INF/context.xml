@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context allowCasualMultipartParsing="true" path="/elearning">
+    <Resource 
+        auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        maxIdle="5" maxActive="100" maxAge="10000" removeAbandoned="true" 
+        name="jdbc/DB" 
+        password="qwerty" 
+        type="javax.sql.DataSource" 
+        url="jdbc:postgresql://localhost:5432/elearning?serverTimezone=UTC" 
+        username="elearning_user"
+    />
+</Context>

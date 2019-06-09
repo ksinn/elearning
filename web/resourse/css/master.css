@@ -1,0 +1,302 @@
+@-webkit-keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+}
+.contaner {    
+    margin: 10px;
+}
+.borded-block {    
+    border: solid 1px #d4d4d4;
+    padding: 20px;
+    margin: 20px;
+}
+/*Blocks whith diagonal colored background*/
+.fst-block{
+    background: url('../img/main-bg.png') no-repeat right bottom;
+    max-height: 720px;
+}
+.fst-block #blink {
+    color: #000;
+    font-weight: 400;
+    -webkit-animation: blink 1.3s linear infinite;
+    animation: blink 1.3s linear infinite;
+}
+.course-block {
+    background: url('../img/c-bg.png') no-repeat left bottom;
+    min-height: 720px;
+    padding-bottom: 190px;
+}
+.area-block {
+    background: url('../img/db-bg.png') no-repeat left bottom;
+    min-height: 720px;
+    padding-bottom: 190px;
+}
+.user-block {
+    background: url('../img/user-bg.png') repeat-x bottom;
+    min-height: 500px;
+    padding-bottom: 140px;
+}
+.blue-blok {
+    background: url(../img/blue_bg.png) repeat-x bottom;
+    min-height: 500px;
+    padding-bottom: 130px;
+}
+.green-blok {
+    
+    background: url(../img/test_bg.png) repeat-x bottom;
+    min-height: 60vh;
+    padding-bottom: 130px;
+}
+/*---end blocks*/
+
+/*footer*/
+.footer {
+    background-color: #eee;
+}
+.footer a {
+    text-decoration: none;
+}
+/*---end footer*/
+
+/*logo*/
+.main-login {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.main-login:hover {
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login {
+    color: #00BCD3;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.login:hover {
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-favicons {
+    height: 50px;
+    border: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+.login-favicons:hover {
+
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+/*.logo {
+    height: 75px;
+    background: url(../img/logo-sm.png) no-repeat;
+    background-position: bottom;
+}
+
+.logo:hover{
+    background-position: top;
+}
+/*---end*/
+
+/*user bar*/
+
+.main-user_board a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.main-user_board a:hover {
+    text-decoration: underline;
+    color: #f34248;
+}
+
+.user_board {
+    margin: auto;
+    
+}
+
+.user_board button:hover {
+    background: #00BCD3;
+    color: #fff;
+}
+
+.user_board a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #00BCD3;
+
+}
+
+.user_board a:hover {
+    text-decoration: underline;
+    color: #f34248;
+}
+
+.usr-img {
+    border-radius: 50%;
+    border: 3px d #fff;
+    width: 60px;
+}
+/*---end*/
+
+.space-top {
+    padding-top: 1.5em;
+}
+
+.space-both {
+    padding: 15px 0;
+}
+.course-info, .area-info {
+    background-color: #fff;
+    margin: -6px auto auto auto;
+    padding: 10px 7px;
+    width: 266px; /* todo: change px to percent for use true adaptive */
+    border: 1px solid #f0f0f0;
+}
+.valign-25 {
+    margin-top: 25%;
+}
+.valign-50, .valign-half {
+    margin-top: 50%;
+}
+.valign-75 {
+    margin-top: 75%;
+}
+.valign-sidenav {
+    padding-top: 0px; /* need to change value after stay new valid logo */
+}
+.course-2 {
+    background: url(../img/course_bg.png) no-repeat left bottom;
+    padding-bottom: 140px;
+}
+.userbar-1 {
+    background: #00BCD3;
+    color: #fff;
+    padding: 1.3em;
+}
+.img-circle {
+    border-radius: 50%;
+    border: 12px solid #fff;
+    width: 175px;
+    height: 175px;
+}
+.userbar-2 {
+    min-height: 720px;
+    padding-bottom: 100px;
+    background: url(../img/usr_bg.png) no-repeat left bottom;
+}
+.green-bg {
+    background-color: #8BC34A;
+    color: #fff;
+    padding: 2.2em;
+}
+.green-bg img {
+    border: 5px solid #fff;
+}
+
+.bg-blue {
+    min-height: 60vh;
+    background: url(../img/blue_bg.png) repeat-x bottom ;
+    padding-bottom: 130px;
+}
+
+a.link{
+    text-decoration: none;
+}
+
+a.green-link{
+    text-decoration: none;
+    color: #333;
+    padding-right: 10px;
+}
+
+a.green-link:hover {
+    color: #83C650;
+}
+
+a.green-edit{
+    text-decoration: none;
+    color: #7b7b7b;
+    padding-right: 10px;
+}
+
+a.green-edit:hover {
+    color: #83C650;
+}
+
+a.blue-link{
+    text-decoration: none;
+    color: #333;
+    padding-right: 10px;
+}
+
+a.blue-link:hover {
+    color: #00BCD3;
+}
+
+a.blue-edit{
+    text-decoration: none;
+    color: #7b7b7b;
+    padding-right: 10px;
+}
+
+a.blue-edit:hover {
+    color: #00BCD3;
+}
+
+
+.font-green {
+    color: #83C650;
+}
+
+.font-blue {
+    color: #00BCD3;
+}
+
+.box {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.white-edit {
+    text-decoration: none;
+    color: #fff;
+}
+.white-edit :hover {
+    color: red;
+}
+
+.red-edit {
+    text-decoration: none;
+    color: red;
+}
+.red-edit :hover {
+    color: blue;
+}
+
+
+.logo-round {
+    border-radius: 50%;
+}
+
+
+

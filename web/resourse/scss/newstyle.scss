@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.12.2017, 10:23:29
+    Author     : ksinn
+*/
+
+@import "kube.scss";
+
+$basis: 1200px !default;
+
+.menu {    
+}
+
+.button.user-white {
+    // $text-color, $back-color
+    @include button(#fff, #fff);
+}
+
+.button.user {
+    // $text-color, $back-color
+    @include button(#00BCD3, #00BCD3);
+}
+
+.borded-block {
+
+    border-color: $color-aluminum;
+    padding: 20px;
+};
+
+.logo {
+    height: 75px;
+    @include retina-background-image('../img/logo-sm', 'png', 100px);
+    background-position: bottom;
+};
+
+.logo:hover{
+    background-position: top;
+}
+
+
+

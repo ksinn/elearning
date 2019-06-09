@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.12.2017, 10:23:29
+    Author     : ksinn
+*/
+.button.user-white {
+  color: white;
+  background-color: white; }
+  .button.user-white:hover {
+    color: white;
+    background-color: white; }
+  .button.user-white:disabled, .button.user-white.disabled {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7); }
+  .button.user-white.outline {
+    background: none;
+    color: white;
+    border-color: white; }
+    .button.user-white.outline:hover {
+      color: rgba(255, 255, 255, 0.6);
+      border-color: rgba(255, 255, 255, 0.5); }
+    .button.user-white.outline:disabled, .button.user-white.outline.disabled {
+      background: none;
+      color: rgba(255, 255, 255, 0.7);
+      border-color: rgba(255, 255, 255, 0.5); }
+
+.button.user {
+  color: #00bcd3;
+  background-color: #00bcd3; }
+  .button.user:hover {
+    color: #00bcd3;
+    background-color: #3aeaff; }
+  .button.user:disabled, .button.user.disabled {
+    color: rgba(0, 188, 211, 0.7);
+    background-color: rgba(0, 188, 211, 0.7); }
+  .button.user.outline {
+    background: none;
+    color: #00bcd3;
+    border-color: #00bcd3; }
+    .button.user.outline:hover {
+      color: rgba(0, 188, 211, 0.6);
+      border-color: rgba(0, 188, 211, 0.5); }
+    .button.user.outline:disabled, .button.user.outline.disabled {
+      background: none;
+      color: rgba(0, 188, 211, 0.7);
+      border-color: rgba(0, 188, 211, 0.5); }
+
+.borded-block {
+  border-color: #f8f8f8;
+  padding: 20px; }
+
+.logo {
+  height: 75px;
+  background-repeat: no-repeat;
+  background-image: url("../img/logo-sm.png");
+  background-position: bottom; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .logo {
+      background-image: url("../img/logo-sm-2x.png");
+      background-size: 100px auto; } }
+
+.logo:hover {
+  background-position: top; }
